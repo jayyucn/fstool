@@ -1,6 +1,6 @@
 {
   "name": "yufs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于fs-extra等模块的文件操作工具",
   "main": "index.js",
   "bin": {
