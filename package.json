@@ -1,0 +1,22 @@
+{
+  "name": "fstool",
+  "version": "1.0.0",
+  "description": "基于fs-extra等模块的文件操作工具",
+  "main": "index.js",
+  "bin": {
+    "fstool": "./bin/fstool.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fstool",
+    "fstools"
+  ],
+  "author": "nalanrola",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "fs-extra": "^9.0.0"
+  }
+}
