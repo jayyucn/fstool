@@ -4,7 +4,7 @@
   "description": "基于fs-extra等模块的文件操作工具",
   "main": "index.js",
   "bin": {
-    "fstool": "./bin/fstool.js"
+    "yufs": "./bin/yufs.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

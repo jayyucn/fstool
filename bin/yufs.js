@@ -2,7 +2,7 @@
 
 
 const program = require('commander');
-const fo = require("../lib/file_oparation");
+const fo = require("../lib/fs");
 
 program.version('v'+require("../package.json").version, '-v, --version')
 .description("This is a npm file system  command line tool!");
