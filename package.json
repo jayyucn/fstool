@@ -1,6 +1,6 @@
 {
-  "name": "fs-tool",
-  "version": "1.0.0",
+  "name": "yufs",
+  "version": "1.0.1",
   "description": "基于fs-extra等模块的文件操作工具",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fstool"
+    "fstool",
+    "yufs",
+    "fs",
+    "fstools"
   ],
   "author": "nalanrola",
   "license": "ISC",
