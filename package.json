@@ -7,7 +7,7 @@
     "yufs": "./bin/yufs.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./bin/yufs.js m ./test.js ./test3/a.js"
   },
   "keywords": [
     "fstool",
@@ -18,7 +18,9 @@
   "author": "nalanrola",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.0.0",
     "commander": "^5.1.0",
-    "fs-extra": "^9.0.0"
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0"
   }
 }
